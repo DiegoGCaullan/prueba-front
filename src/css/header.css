@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+*::selection {
+  background: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.795);
+}
+
+/* first mobile */
+.header {
+  background: rgba(0, 0, 0, 0.6);
+  height: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.header__nav,
+.header__user {
+  display: none;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .header__nav {
+    display: block;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__nav-link {
+    margin-left: 15px;
+    color: rgb(150, 53, 53);
+    text-decoration: none;
+  }
+}

@@ -1,6 +1,6 @@
-export const getMoviesFetch = async () => {
+/*export const getEncuestasFetch = async () => {
   try {
-    const url = "http://localhost:3977/api/v1/movies";
+    const url = "http://localhost:3844/api/v1/encuestas";
     const response = await fetch(url);
     const result = await response.json();
 
@@ -11,3 +11,4 @@ export const getMoviesFetch = async () => {
     throw error;
   }
 };
+*/
